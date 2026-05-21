@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 12pt;
+
+    padding: 10px;
+    margin: 10px;
+
+    /* background-image: url("Reference Painting.jpg");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    min-height: 100vh; */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu {
+    width: 1000px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.lang {
+    position: fixed;
+
+    top: 20px;
+    left: 20px;
+
+    display: flex;
+    gap: 10px;
+}
+
+.nav {
+    width: 1000px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+}
+
+.menu p,
+.lang p {
+    margin: 0;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: black;
+}
+
+.content {
+    width: 1000px;
+    margin: 120px auto;
+
+    text-align: center;
+}
+
+.content_me {
+    width: 800px;
+    margin: 120px auto;
+
+    text-align: center;
+}
